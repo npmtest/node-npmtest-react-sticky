@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-sticky/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-sticky/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-sticky/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-sticky/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-sticky/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-sticky/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-sticky/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-sticky/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-sticky/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-sticky/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-sticky/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-sticky/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
         "test": "mocha --compilers js:babel-core/register test/unit",
         "transpile": "babel src --loose --out-dir lib"
     },
-    "version": "5.0.8"
+    "version": "5.0.8",
+    "bin": {}
 }
 ```
 
